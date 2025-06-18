@@ -1,0 +1,11 @@
+[package]
+name = "platon-lang-lua"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ton Nom <ton.email@example.com>"]
+description = "Module Lua pour Platon : autocomplétion, documentation, snippets, interprétation via lua."
+license = "MIT"
+repository = "https://github.com/tonprojet/platon"
+
+[dependencies]
+# Pas de dépendances externes spécifiques

@@ -1,0 +1,44 @@
+[editor]
+tab_size = 4
+auto_indent = true
+auto_complete = true
+highlight_syntax = true
+line_numbers = true
+wrap_text = false
+default_language = "rust"
+default_file = "main.rs"
+autosave_interval_ms = 10000
+
+[theme]
+name = "solarized-dark"
+background = "black"
+foreground = "white"
+cursor_color = "cyan"
+selection_color = "blue"
+line_number_color = "gray"
+status_bar_color = "darkgray"
+error_color = "red"
+
+[terminal]
+width = 100
+height = 30
+fullscreen = false
+mouse_support = true
+
+[keybindings]
+save = "Ctrl+s"
+quit = "Ctrl+q"
+open_file = "Ctrl+o"
+toggle_sidebar = "Ctrl+b"
+autocomplete = "Tab"
+documentation = "Ctrl+d"
+run_interpreter = "F5"
+format_code = "Ctrl+Shift+f"
+toggle_theme = "Ctrl+t"
+
+[languages]
+enabled = [
+  "rust", "python", "javascript", "typescript", "c", "cpp", "java",
+  "go", "ruby", "swift", "kotlin", "php", "bash", "lua",
+  "scala", "fortran", "basic", "asm", "brainfuck", "ook", "markdown"
+]

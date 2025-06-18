@@ -1,0 +1,9 @@
+[package]
+name = "platon-lang-swift"
+version = "0.1.0"
+edition = "2021"
+authors = ["Platon Project"]
+description = "Support Swift pour l’éditeur Platon"
+license = "MIT"
+
+[dependencies]

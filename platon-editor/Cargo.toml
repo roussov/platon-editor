@@ -1,0 +1,56 @@
+[workspace]
+members = [
+    ".",
+    "src/lang/rust",
+    "src/lang/python",
+    "src/lang/javascript",
+    "src/lang/typescript",
+    "src/lang/c",
+    "src/lang/cpp",
+    "src/lang/java",
+    "src/lang/go",
+    "src/lang/ruby",
+    "src/lang/swift",
+    "src/lang/kotlin",
+    "src/lang/php",
+    "src/lang/bash",
+    "src/lang/lua",
+    "src/lang/scala",
+    "src/lang/fortran",
+    "src/lang/basic",
+    "src/lang/asm",
+    "src/lang/brainfuck",
+    "src/lang/ook",
+    "src/lang/markdown"
+]
+
+[package]
+name = "platon_editor"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vincent Rousseau"]
+description = "Éditeur de texte TUI complet multi-langages avec auto-complétion et interpréteurs intégrés."
+license = "MIT"
+repository = "https://github.com/roussov/platon-editor"
+
+[dependencies]
+crossterm = "0.26"            # Pour la gestion du terminal
+tui = "0.19"                  # Terminal User Interface (widgets, layout...)
+pulldown-cmark = "0.9"        # Parsing Markdown
+syntect = { version = "5.0", features = ["default"] } # Coloration syntaxique
+serde = { version = "1.0", features = ["derive"] } # Pour la config (toml/json)
+toml = "0.7"                  # Parsing des fichiers toml (thèmes, config)
+lazy_static = "1.4"           # Pour les données statiques (mots clés etc.)
+anyhow = "1.0"                # Gestion d’erreurs plus simple
+log = "0.4"                   # Logging
+env_logger = "0.10"           # Logger pour la console
+
+[features]
+default = []
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
+codegen-units = 1
+panic = "abort"

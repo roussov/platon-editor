@@ -1,0 +1,11 @@
+[package]
+name = "platon-lang-javascript"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ton Nom <ton.email@example.com>"]
+description = "Module JavaScript pour Platon: autocomplétion, docs, snippets, interprétation via Node.js"
+license = "MIT"
+repository = "https://github.com/tonprojet/platon"
+
+[dependencies]
+# Pas de dépendances externes

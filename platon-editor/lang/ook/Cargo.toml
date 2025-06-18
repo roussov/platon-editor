@@ -1,0 +1,11 @@
+[package]
+name = "platon-lang-hook"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ton Nom <ton.email@example.com>"]
+description = "Module Hook pour Platon : gestion d'événements personnalisés."
+license = "MIT"
+repository = "https://github.com/tonprojet/platon"
+
+[dependencies]
+# Pas de dépendances externes

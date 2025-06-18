@@ -1,0 +1,9 @@
+[package]
+name = "platon-lang-python"
+version = "0.1.0"
+edition = "2021"
+authors = ["Platon Project"]
+description = "Support Python pour l’éditeur Platon"
+license = "MIT"
+
+[dependencies]

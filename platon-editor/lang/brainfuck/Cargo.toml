@@ -1,0 +1,11 @@
+[package]
+name = "platon-lang-brainfuck"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ton Nom <ton.email@example.com>"]
+description = "Module Brainfuck pour l'éditeur Platon : autocomplétion, documentation, snippet, interpréteur simple."
+license = "MIT"
+repository = "https://github.com/tonprojet/platon"
+
+[dependencies]
+# Aucune dépendance externe

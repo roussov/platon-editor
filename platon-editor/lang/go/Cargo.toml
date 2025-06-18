@@ -1,0 +1,11 @@
+[package]
+name = "platon-lang-go"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ton Nom <ton.email@example.com>"]
+description = "Module Go pour l'éditeur Platon : autocomplétion, documentation, snippets et interprétation via go run."
+license = "MIT"
+repository = "https://github.com/tonprojet/platon"
+
+[dependencies]
+# Pas de dépendances externes spécifiques

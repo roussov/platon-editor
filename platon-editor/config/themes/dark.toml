@@ -1,0 +1,34 @@
+# Thème sombre pour Platon Editor
+
+[theme]
+name = "dark"
+description = "Thème sombre par défaut pour l'éditeur Platon"
+
+[colors]
+background        = "#1e1e1e"
+foreground        = "#d4d4d4"
+cursor            = "#ffffff"
+selection         = "#264f78"
+line_number       = "#5a5a5a"
+line_number_active = "#c5c5c5"
+status_bar        = "#333333"
+status_text       = "#cccccc"
+error             = "#ff5555"
+warning           = "#ffaa00"
+info              = "#88c0d0"
+hint              = "#5fd7ff"
+border            = "#3c3c3c"
+
+[syntax]
+keyword           = "#569cd6"
+builtin           = "#c586c0"
+function          = "#dcdcaa"
+variable          = "#9cdcfe"
+string            = "#ce9178"
+number            = "#b5cea8"
+comment           = "#6a9955"
+type              = "#4ec9b0"
+constant          = "#d16969"
+operator          = "#d4d4d4"
+punctuation       = "#d4d4d4"
+background_region = "#2a2a2a"

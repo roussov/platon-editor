@@ -1,0 +1,11 @@
+[package]
+name = "platon-lang-fortran"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ton Nom <ton.email@example.com>"]
+description = "Module Fortran pour l'éditeur Platon : autocomplétion, documentation, snippets et interprétation simplifiée."
+license = "MIT"
+repository = "https://github.com/tonprojet/platon"
+
+[dependencies]
+# Pas de dépendances externes

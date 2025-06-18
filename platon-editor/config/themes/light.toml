@@ -1,0 +1,34 @@
+# Thème clair pour Platon Editor
+
+[theme]
+name = "light"
+description = "Thème clair classique pour l'éditeur Platon"
+
+[colors]
+background         = "#ffffff"
+foreground         = "#000000"
+cursor             = "#000000"
+selection          = "#d7d7d7"
+line_number        = "#aaaaaa"
+line_number_active = "#000000"
+status_bar         = "#e0e0e0"
+status_text        = "#333333"
+error              = "#d70000"
+warning            = "#d75f00"
+info               = "#005f87"
+hint               = "#0087af"
+border             = "#cccccc"
+
+[syntax]
+keyword           = "#0000ff"
+builtin           = "#af00db"
+function          = "#795e26"
+variable          = "#001080"
+string            = "#a31515"
+number            = "#098658"
+comment           = "#008000"
+type              = "#267f99"
+constant          = "#811f3f"
+operator          = "#000000"
+punctuation       = "#000000"
+background_region = "#f9f9f9"
